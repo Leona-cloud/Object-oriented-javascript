@@ -21,6 +21,7 @@ class User {
     }
 }
 
+// Inheritance
 class Admin extends User{
     deleteUser(user){
         users = users.filter(u => {
